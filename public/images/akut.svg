@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#450a0a"/>
+  <rect width="400" height="300" rx="12" fill="url(#akutgrad)" opacity="0.7"/>
+  <defs>
+    <linearGradient id="akutgrad" x1="0" y1="0" x2="400" y2="300">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+  </defs>
+  <!-- Warning triangle -->
+  <path d="M200 60 L290 220 L110 220Z" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M200 75 L278 210 L122 210Z" fill="#ef4444" opacity="0.1"/>
+  <!-- Exclamation mark -->
+  <rect x="195" y="110" width="10" height="55" rx="5" fill="#ef4444"/>
+  <circle cx="200" cy="190" r="7" fill="#ef4444"/>
+  <!-- Lightning bolts around -->
+  <path d="M85 100 L70 130 L85 125 L75 155" stroke="#fca5a5" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M315 90 L330 120 L315 115 L325 145" stroke="#fca5a5" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Pulse ring -->
+  <circle cx="200" cy="150" r="90" stroke="#ef4444" stroke-width="1" fill="none" opacity="0.2"/>
+  <circle cx="200" cy="150" r="110" stroke="#ef4444" stroke-width="0.5" fill="none" opacity="0.1"/>
+  <!-- 24/7 text -->
+  <text x="200" y="260" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="18" font-weight="bold" opacity="0.6">24/7</text>
+  <text x="200" y="285" text-anchor="middle" fill="#fca5a5" font-family="sans-serif" font-size="12" opacity="0.4">Akut Elektriker</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#064e3b"/>
+  <!-- Clipboard / checklist icon -->
+  <rect x="130" y="40" width="140" height="200" rx="10" fill="#065f46" stroke="#10b981" stroke-width="2"/>
+  <rect x="160" y="30" width="80" height="25" rx="6" fill="#10b981"/>
+  <!-- Checkmarks -->
+  <line x1="155" y1="90" x2="245" y2="90" stroke="#34d399" stroke-width="1.5" opacity="0.4"/>
+  <path d="M155 88 L162 95 L175 80" stroke="#34d399" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="155" y1="120" x2="245" y2="120" stroke="#34d399" stroke-width="1.5" opacity="0.4"/>
+  <path d="M155 118 L162 125 L175 110" stroke="#34d399" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="155" y1="150" x2="245" y2="150" stroke="#34d399" stroke-width="1.5" opacity="0.4"/>
+  <path d="M155 148 L162 155 L175 140" stroke="#34d399" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="155" y1="180" x2="245" y2="180" stroke="#6ee7b7" stroke-width="1.5" opacity="0.3"/>
+  <line x1="155" y1="210" x2="245" y2="210" stroke="#6ee7b7" stroke-width="1.5" opacity="0.3"/>
+  <!-- Magnifying glass -->
+  <circle cx="310" cy="180" r="35" stroke="#10b981" stroke-width="3" fill="none"/>
+  <line x1="335" y1="205" x2="360" y2="235" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <text x="200" y="280" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-size="12" opacity="0.5">Eltjek</text>
+</svg>
