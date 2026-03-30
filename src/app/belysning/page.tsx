@@ -123,9 +123,9 @@ export default function BelysningPage() {
                     Få belysningsforslag →
                   </span>
                 </MagneticButton>
-                <MagneticButton href="tel:70000000">
+                <MagneticButton href="/kontakt">
                   <span className="inline-block px-8 py-4 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors">
-                    Ring: 70 XX XX XX
+                    Kontakt os
                   </span>
                 </MagneticButton>
               </div>
@@ -355,9 +355,9 @@ export default function BelysningPage() {
                   Få belysningsforslag →
                 </span>
               </MagneticButton>
-              <MagneticButton href="tel:70000000">
+              <MagneticButton href="/kontakt">
                 <span className="inline-block px-8 py-4 bg-emerald-400/20 border border-emerald-400/30 text-white font-semibold rounded-xl hover:bg-emerald-400/30 transition-colors">
-                  Ring: 70 XX XX XX
+                  Kontakt os
                 </span>
               </MagneticButton>
             </div>

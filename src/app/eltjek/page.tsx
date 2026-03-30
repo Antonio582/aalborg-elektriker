@@ -9,7 +9,7 @@ import AuthorByline from '@/components/AuthorByline'
 import ArticleSchema from '@/components/ArticleSchema'
 
 const steps = [
-  { step: '01', title: 'Kontakt & Booking', desc: 'Ring eller skriv til os for at booke et eltjek. Vi finder en tid der passer dig – ofte allerede inden for få dage.' },
+  { step: '01', title: 'Kontakt & Booking', desc: 'Kontakt os for at booke et eltjek. Vi finder en tid der passer dig – ofte allerede inden for få dage.' },
   { step: '02', title: 'Grundig Gennemgang', desc: 'Vores autoriserede elektriker gennemgår hele din el-installation systematisk. Vi tjekker sikringstavle, jordledninger, fejlstrømsrelæer, stikkontakter og alle kredsløb.' },
   { step: '03', title: 'Måling & Test', desc: 'Vi udfører professionelle målinger af isolationsmodstand, sløjfeimpedans og jordforbindelse. Alt dokumenteres med kaliberet udstyr.' },
   { step: '04', title: 'Rapport & Anbefaling', desc: 'Du modtager en detaljeret rapport med fund, vurderinger og eventuelle anbefalinger til forbedringer. Vi gennemgår rapporten med dig.' },
@@ -96,9 +96,9 @@ export default function EltjekPage() {
                     Book eltjek →
                   </span>
                 </MagneticButton>
-                <MagneticButton href="tel:70000000">
+                <MagneticButton href="/kontakt">
                   <span className="inline-block px-8 py-4 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors">
-                    Ring: 70 XX XX XX
+                    Kontakt os
                   </span>
                 </MagneticButton>
               </div>

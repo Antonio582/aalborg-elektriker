@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'Elektriker Aalborg | Autoriseret El-installatør | Aalborg El-Service',
     template: '%s | Aalborg El-Service',
   },
-  description: 'Autoriseret elektriker i Aalborg og Nordjylland. Eltjek, el-installation, belysning, ladestandere og akut elektriker. Ring 70 XX XX XX for gratis tilbud.',
+  description: 'Autoriseret elektriker i Aalborg og Nordjylland. Eltjek, el-installation, belysning, ladestandere og akut elektriker. Kontakt os for gratis tilbud.',
   keywords: ['elektriker aalborg', 'el-installatør aalborg', 'autoriseret elektriker aalborg', 'akut elektriker aalborg', 'elektriker nordjylland'],
   openGraph: {
     type: 'website',
@@ -47,7 +47,7 @@ const localBusinessSchema = {
   name: 'Aalborg El-Service',
   description: 'Autoriseret elektriker i Aalborg og Nordjylland',
   url: 'https://aalborg-elektriker.dk',
-  telephone: '70000000',
+  telephone: '',
   email: 'info@aalborg-elektriker.dk',
   address: {
     '@type': 'PostalAddress',

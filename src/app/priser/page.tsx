@@ -102,7 +102,7 @@ export default function PriserPage() {
             '@type': 'LocalBusiness',
             name: 'Aalborg El-Service',
             description: 'Priser på elektriker i Aalborg. Gennemsigtige timepriser og faste priser på el-arbejde.',
-            telephone: '70000000',
+            telephone: '',
             url: 'https://aalborg-elektriker.dk/priser',
             priceRange: '$$',
           }),
@@ -142,9 +142,9 @@ export default function PriserPage() {
                     Få uforpligtende tilbud →
                   </span>
                 </MagneticButton>
-                <MagneticButton href="tel:70000000">
+                <MagneticButton href="/kontakt">
                   <span className="inline-block px-8 py-4 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors">
-                    Ring: 70 XX XX XX
+                    Kontakt os
                   </span>
                 </MagneticButton>
               </div>
@@ -298,9 +298,9 @@ export default function PriserPage() {
                     Få gratis tilbud →
                   </span>
                 </MagneticButton>
-                <MagneticButton href="tel:70000000">
+                <MagneticButton href="/kontakt">
                   <span className="inline-block px-8 py-4 bg-warm-100 text-emerald-800 font-semibold rounded-xl hover:bg-warm-200 transition-colors text-lg">
-                    📞 70 XX XX XX
+                    Kontakt os
                   </span>
                 </MagneticButton>
               </div>

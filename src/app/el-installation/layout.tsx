@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'El-installation Aalborg | Nybyg & Renovering | Aalborg El-Service',
-  description: 'Komplet el-installation i Aalborg til nybyg, renovering og erhverv. Autoriseret elektriker med 5 års garanti. Få gratis tilbud – ring 70 XX XX XX.',
+  description: 'Komplet el-installation i Aalborg til nybyg, renovering og erhverv. Autoriseret elektriker med 5 års garanti. Få gratis tilbud – kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/el-installation',
     languages: { 'da-DK': 'https://aalborg-elektriker.dk/el-installation' },

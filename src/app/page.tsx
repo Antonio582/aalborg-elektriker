@@ -74,7 +74,7 @@ const testimonials = [
 const faqs = [
   {
     question: 'Hvor hurtigt kan I komme ved akut behov?',
-    answer: 'Ved akutte el-problemer i Aalborg og nærområdet kan vi typisk være fremme inden for 1-2 timer. Vi har altid en vagtordning klar, så du kan ringe 24/7 på 70 XX XX XX. Akut service dækker hele Aalborg, Nørresundby, Hasseris, Aalborg Øst og omegn.',
+    answer: 'Ved akutte el-problemer i Aalborg og nærområdet kan vi typisk være fremme inden for 1-2 timer. Vi har altid en vagtordning klar, så du kan kontakte os 24/7. Akut service dækker hele Aalborg, Nørresundby, Hasseris, Aalborg Øst og omegn.',
   },
   {
     question: 'Er I autoriserede elektrikere?',
@@ -160,9 +160,9 @@ export default function HomePage() {
                     Få gratis tilbud →
                   </span>
                 </MagneticButton>
-                <MagneticButton href="tel:70000000">
+                <MagneticButton href="/kontakt">
                   <span className="inline-block px-8 py-4 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors text-lg">
-                    Ring: 70 XX XX XX
+                    Kontakt os
                   </span>
                 </MagneticButton>
               </div>
@@ -374,9 +374,9 @@ export default function HomePage() {
                   Få gratis tilbud →
                 </span>
               </MagneticButton>
-              <MagneticButton href="tel:70000000">
+              <MagneticButton href="/kontakt">
                 <span className="inline-block px-8 py-4 bg-emerald-400/20 border border-emerald-400/30 text-white font-semibold rounded-xl hover:bg-emerald-400/30 transition-colors text-lg">
-                  📞 70 XX XX XX
+                  Kontakt os
                 </span>
               </MagneticButton>
             </div>

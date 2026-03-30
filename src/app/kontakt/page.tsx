@@ -23,7 +23,7 @@ const serviceOptions = [
 const faqs = [
   {
     question: 'Hvor hurtigt svarer I på henvendelser?',
-    answer: 'Vi bestræber os på at svare på alle henvendelser inden for 2 timer i normal arbejdstid (man-fre 7-16). Henvendelser modtaget uden for arbejdstid besvares næste hverdag inden kl. 9. Ved akutte problemer anbefaler vi at ringe direkte på 70 XX XX XX.',
+    answer: 'Vi bestræber os på at svare på alle henvendelser inden for 2 timer i normal arbejdstid (man-fre 7-16). Henvendelser modtaget uden for arbejdstid besvares næste hverdag inden kl. 9. Ved akutte problemer anbefaler vi at udfylde kontaktformularen.',
   },
   {
     question: 'Er et tilbud fra jer gratis og uforpligtende?',
@@ -67,7 +67,7 @@ export default function KontaktPage() {
     <>
       <ArticleSchema
         title="Kontakt Aalborg El-Service – Din Autoriserede Elektriker i Aalborg"
-        description="Kontakt Aalborg El-Service for gratis tilbud på el-arbejde. Ring, skriv eller besøg os. Vi svarer inden for 2 timer."
+        description="Kontakt Aalborg El-Service for gratis tilbud på el-arbejde. Kontakt os via formularen. Vi svarer inden for 2 timer."
         url="https://aalborg-elektriker.dk/kontakt"
         datePublished="2024-01-15"
         dateModified="2026-03-27"
@@ -80,8 +80,8 @@ export default function KontaktPage() {
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             name: 'Aalborg El-Service',
-            description: 'Kontakt Aalborg El-Service – din autoriserede elektriker i Aalborg. Ring, skriv eller besøg os.',
-            telephone: '70000000',
+            description: 'Kontakt Aalborg El-Service – din autoriserede elektriker i Aalborg. Kontakt os via formularen.',
+            telephone: '',
             email: 'info@aalborg-elektriker.dk',
             url: 'https://aalborg-elektriker.dk/kontakt',
             address: {
@@ -146,7 +146,7 @@ export default function KontaktPage() {
                   Send os en besked
                 </h2>
                 <p className="text-warm-500 mb-8">
-                  Udfyld formularen herunder, og vi vender tilbage hurtigst muligt. Alle felter markeret med * er påkrævede. Du kan også ringe direkte på <a href="tel:70000000" className="text-emerald-600 hover:underline font-medium">70 XX XX XX</a> eller sende en email til <a href="mailto:info@aalborg-elektriker.dk" className="text-emerald-600 hover:underline font-medium">info@aalborg-elektriker.dk</a>.
+                  Udfyld formularen herunder, og vi vender tilbage hurtigst muligt. Alle felter markeret med * er påkrævede. Du kan også sende en email til <a href="mailto:info@aalborg-elektriker.dk" className="text-emerald-600 hover:underline font-medium">info@aalborg-elektriker.dk</a>.
                 </p>
 
                 {isSubmitted ? (
@@ -160,7 +160,7 @@ export default function KontaktPage() {
                       Tak for din henvendelse!
                     </h3>
                     <p className="text-warm-500">
-                      Vi har modtaget din besked og vender tilbage inden for 2 timer i normal arbejdstid. Ved akutte problemer ring venligst <a href="tel:70000000" className="text-emerald-600 hover:underline font-medium">70 XX XX XX</a>.
+                      Vi har modtaget din besked og vender tilbage inden for 2 timer i normal arbejdstid. Ved akutte problemer <a href="/kontakt" className="text-emerald-600 hover:underline font-medium">kontakt os</a>.
                     </p>
                   </motion.div>
                 ) : (
@@ -306,7 +306,7 @@ export default function KontaktPage() {
                       </div>
                       <div>
                         <div className="font-medium text-warm-800">Telefon</div>
-                        <a href="tel:70000000" className="text-emerald-600 hover:underline font-semibold text-lg">70 XX XX XX</a>
+                        <a href="/kontakt" className="text-emerald-600 hover:underline font-semibold text-lg">Kontakt os</a>
                         <div className="text-warm-400 text-xs mt-0.5">Akut: 24/7 · Kontor: Man-fre 7-16</div>
                       </div>
                     </div>
@@ -350,8 +350,8 @@ export default function KontaktPage() {
                     <p className="text-sm text-red-700 flex items-center gap-2">
                       <span>🚨</span>
                       <span>
-                        <strong>Akut el-problem?</strong> Ring{' '}
-                        <a href="tel:70000000" className="underline font-semibold">70 XX XX XX</a> – vi er klar 24/7!
+                        <strong>Akut el-problem?</strong> {' '}
+                        <a href="/kontakt" className="underline font-semibold">Kontakt os</a> – vi er klar 24/7!
                       </span>
                     </p>
                   </div>
@@ -389,7 +389,7 @@ export default function KontaktPage() {
                 Vi dækker hele Aalborg Kommune og nærområdet, herunder Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup og Vodskov. Ved <Link href="/akut-elektriker" className="text-emerald-600 hover:underline">akutte el-problemer</Link> kan vi typisk være fremme inden for 1-2 timer i Aalborg by. For opgaver i det øvrige Nordjylland er du også velkommen til at kontakte os.
               </p>
               <p>
-                Vi ser frem til at høre fra dig! Udfyld kontaktformularen ovenfor, ring til os på 70 XX XX XX, eller send en email til info@aalborg-elektriker.dk. Vi lover at vende tilbage hurtigt med et svar eller et tilbud. Ingen opgave er for lille eller for stor for Aalborg El-Service.
+                Vi ser frem til at høre fra dig! Udfyld kontaktformularen ovenfor, ring til os på, eller send en email til info@aalborg-elektriker.dk. Vi lover at vende tilbage hurtigt med et svar eller et tilbud. Ingen opgave er for lille eller for stor for Aalborg El-Service.
               </p>
             </div>
           </ScrollReveal>
@@ -420,14 +420,14 @@ export default function KontaktPage() {
               Vi glæder os til at hjælpe dig
             </h2>
             <p className="text-emerald-100/80 mt-4 text-lg max-w-2xl mx-auto">
-              Aalborg El-Service – din autoriserede elektriker i Aalborg og Nordjylland. Ring, skriv eller kig forbi.
+              Aalborg El-Service – din autoriserede elektriker i Aalborg og Nordjylland. Kontakt os via formularen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <a
-                href="tel:70000000"
+                href="/kontakt"
                 className="inline-block px-8 py-4 bg-white text-emerald-800 font-semibold rounded-xl hover:bg-warm-100 transition-colors text-lg"
               >
-                📞 Ring: 70 XX XX XX
+                📞 Kontakt os
               </a>
               <a
                 href="mailto:info@aalborg-elektriker.dk"

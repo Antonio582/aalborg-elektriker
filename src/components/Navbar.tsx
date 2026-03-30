@@ -45,10 +45,10 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:70000000"
+              href="/kontakt"
               className="ml-3 px-4 py-2 bg-emerald-700 text-white text-sm font-medium rounded-xl hover:bg-emerald-800 transition-colors"
             >
-              70 XX XX XX
+             
             </a>
           </div>
 
@@ -90,10 +90,10 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="tel:70000000"
+                href="/kontakt"
                 className="block mt-3 px-4 py-3 bg-emerald-700 text-white text-center font-medium rounded-xl"
               >
-                Ring: 70 XX XX XX
+                Kontakt os
               </a>
             </div>
           </motion.div>

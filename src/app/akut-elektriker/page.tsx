@@ -18,7 +18,7 @@ const emergencyProblems = [
 ]
 
 const processSteps = [
-  { step: '01', title: 'Ring til os', desc: 'Ring 70 XX XX XX – vores vagttelefon er åben 24 timer i døgnet, 7 dage om ugen. Beskriv problemet, så vi kan forberede os.' },
+  { step: '01', title: 'Kontakt os', desc: 'Kontakt os – vores vagttelefon er åben 24 timer i døgnet, 7 dage om ugen. Beskriv problemet, så vi kan forberede os.' },
   { step: '02', title: 'Hurtig udrykning', desc: 'Vi sender en autoriseret elektriker til dig. I Aalborg og nærområdet er vi typisk fremme inden for 1-2 timer.' },
   { step: '03', title: 'Fejlfinding & diagnose', desc: 'Vores elektriker lokaliserer fejlen med professionelt måleudstyr og giver dig en klar forklaring på problemet.' },
   { step: '04', title: 'Udbedring på stedet', desc: 'I de fleste tilfælde kan vi løse problemet med det samme. Ved større reparationer aftaler vi en plan og et fast tilbud.' },
@@ -27,7 +27,7 @@ const processSteps = [
 const faqs = [
   {
     question: 'Hvor hurtigt kan I komme ved en akut situation?',
-    answer: 'I Aalborg og nærområdet (Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup, Vodskov) kan vi typisk være fremme inden for 1-2 timer. Ved livstruende situationer ring altid 112 først. Vores vagttelefon er åben 24/7 på 70 XX XX XX.',
+    answer: 'I Aalborg og nærområdet (Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup, Vodskov) kan vi typisk være fremme inden for 1-2 timer. Ved livstruende situationer ring altid 112 først. Vores vagttelefon er åben 24/7 på.',
   },
   {
     question: 'Hvad koster en akut elektriker i Aalborg?',
@@ -84,7 +84,7 @@ export default function AkutElektrikerPage() {
             '@type': 'LocalBusiness',
             name: 'Aalborg El-Service – Akut Elektriker',
             description: 'Akut elektriker i Aalborg 24/7. Hurtig udrykning ved kortslutning, strømafbrydelse og andre el-nødsituationer.',
-            telephone: '70000000',
+            telephone: '',
             url: 'https://aalborg-elektriker.dk/akut-elektriker',
             areaServed: [
               { '@type': 'City', name: 'Aalborg' },
@@ -132,10 +132,10 @@ export default function AkutElektrikerPage() {
               </p>
               <div className="mt-10">
                 <a
-                  href="tel:70000000"
+                  href="/kontakt"
                   className="inline-block pulse-emergency px-10 py-6 bg-red-600 text-white font-bold text-2xl sm:text-3xl rounded-2xl hover:bg-red-700 transition-colors shadow-2xl shadow-red-500/30"
                 >
-                  📞 Ring nu: 70 XX XX XX
+                  Kontakt os nu
                 </a>
               </div>
               <div className="mt-6 flex flex-wrap justify-center gap-6 text-warm-400 text-sm">
@@ -332,13 +332,13 @@ export default function AkutElektrikerPage() {
                   Når du oplever et akut el-problem, er det vigtigste at beskytte dig selv og din familie. El er farligt, og selv tilsyneladende harmløse situationer kan have alvorlige konsekvenser. Her er hvad du bør gøre – og ikke gøre – mens du venter på vores elektriker.
                 </p>
                 <p>
-                  <strong className="text-warm-800">Sluk hovedafbryderen</strong> hvis det er sikkert at komme til den. Det afbryder al strøm i huset og eliminerer risikoen for yderligere skade. Hovedafbryderen sidder typisk øverst i din sikringstavle. Hvis tavlen er beskadiget, har brændemærker eller lugter, skal du holde dig væk og ringe til os med det samme.
+                  <strong className="text-warm-800">Sluk hovedafbryderen</strong> hvis det er sikkert at komme til den. Det afbryder al strøm i huset og eliminerer risikoen for yderligere skade. Hovedafbryderen sidder typisk øverst i din sikringstavle. Hvis tavlen er beskadiget, har brændemærker eller lugter, skal du holde dig væk og kontakte os med det samme.
                 </p>
                 <p>
                   <strong className="text-warm-800">Rør aldrig ved beskadigede installationer</strong> med bare hænder, og slet ikke med våde hænder. Vand og el er en livsfarlig kombination. Hvis der er vand nær el-installationer – f.eks. ved en vandskade eller oversvømmelse – skal du holde afstand og lade en autoriseret elektriker vurdere situationen.
                 </p>
                 <p>
-                  <strong className="text-warm-800">Ved røglugt eller brændt lugt</strong> fra el-installationen skal du åbne vinduer og forlade rummet. Ring 112 hvis der er synlig røg eller flammer. Kontakt derefter os på 70 XX XX XX, så vi kan rykke ud og sikre installationen.
+                  <strong className="text-warm-800">Ved røglugt eller brændt lugt</strong> fra el-installationen skal du åbne vinduer og forlade rummet. Ring 112 hvis der er synlig røg eller flammer. Kontakt os derefter, så vi kan rykke ud og sikre installationen.
                 </p>
                 <p>
                   Mange akutte el-problemer kan forebygges med regelmæssige <Link href="/eltjek" className="text-emerald-600 hover:underline">eltjek</Link>. En grundig gennemgang af din installation hvert 5-10 år kan afsløre potentielle problemer, før de bliver farlige. Vores <Link href="/kontakt" className="text-emerald-600 hover:underline">kontaktside</Link> gør det nemt at booke et eltjek eller stille spørgsmål om din installation.
@@ -374,14 +374,14 @@ export default function AkutElektrikerPage() {
               Har du et akut el-problem?
             </h2>
             <p className="text-warm-300 mt-4 text-lg max-w-2xl mx-auto">
-              Ring nu – vi er klar 24/7 med hurtig udrykning til Aalborg, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
+              Kontakt os – vi er klar 24/7 med hurtig udrykning til Aalborg, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <a
-                href="tel:70000000"
+                href="/kontakt"
                 className="inline-block pulse-emergency px-10 py-5 bg-red-600 text-white font-bold text-xl rounded-2xl hover:bg-red-700 transition-colors shadow-2xl shadow-red-500/30"
               >
-                📞 Ring: 70 XX XX XX
+                📞 Kontakt os
               </a>
               <MagneticButton href="/kontakt">
                 <span className="inline-block px-8 py-5 bg-white/10 border border-white/20 text-white font-semibold rounded-2xl hover:bg-white/20 transition-colors text-xl">

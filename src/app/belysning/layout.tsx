@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Belysning Aalborg | LED & Lysdesign | Aalborg El-Service',
-  description: 'Professionel belysning i Aalborg – LED-opgradering, spots, havebelysning og erhvervsbelysning. Spar op til 85% på el. Ring 70 XX XX XX for tilbud.',
+  description: 'Professionel belysning i Aalborg – LED-opgradering, spots, havebelysning og erhvervsbelysning. Spar op til 85% på el. Kontakt os for tilbud.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/belysning',
     languages: { 'da-DK': 'https://aalborg-elektriker.dk/belysning' },
