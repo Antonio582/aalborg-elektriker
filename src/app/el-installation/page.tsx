@@ -173,13 +173,13 @@ export default function ElInstallationPage() {
                 <AuthorByline date="1. februar 2024" modified="27. marts 2026" />
                 <div className="space-y-4 text-warm-600 leading-relaxed">
                   <p>
-                    Når du bygger nyt eller renoverer din bolig i Aalborg, er el-installationen en af de vigtigste dele af projektet. En korrekt planlagt og udført el-installation sikrer ikke kun din families sikkerhed, men også komfort og fremtidssikring af boligen. Hos Nordjysk Elektriker har vi over 18 års erfaring med el-installationer i Aalborg, Nørresundby, Hasseris, Aalborg Øst og hele Nordjylland.
+                    Bygger du nyt eller renoverer? Så er el-installationen en af de vigtigste dele af projektet. God planlægning sikrer din families sikkerhed, komfort og fremtidssikring. Hos Nordjysk Elektriker har vi over 18 års erfaring med el-installationer i Aalborg, Nørresundby, Hasseris, Aalborg Øst og hele Nordjylland.
                   </p>
                   <p>
                     Vi begynder altid med en grundig planlægning, hvor vi gennemgår dine behov og ønsker. Hvor mange stikkontakter har du brug for? Skal der installeres <Link href="/belysning" className="text-emerald-600 hover:underline">specialbelysning</Link>? Er der behov for <Link href="/ladestandere" className="text-emerald-600 hover:underline">ladestander til elbil</Link>? Skal installationen forberedes til smart home? Vi tænker fremad, så du undgår dyre efterinstallationer.
                   </p>
                   <p>
-                    Ved renoveringsprojekter i ældre boliger i eksempelvis Hasseris eller Aalborg C støder vi ofte på forældede installationer med aluminium-ledninger, manglende jordforbindelse eller utilstrækkelige sikringer. Vi sørger for at bringe installationen op til nutidens standarder og sikkerhedskrav, mens vi respekterer boligens karakter og arkitektur.
+                    I ældre boliger i Hasseris eller Aalborg C finder vi ofte forældede installationer. Det kan være aluminium-ledninger, manglende jordforbindelse eller utilstrækkelige sikringer. Vi bringer installationen op til nutidens krav – og respekterer boligens karakter og arkitektur.
                   </p>
                   <p>
                     Alle vores el-installationer udføres i overensstemmelse med Stærkstrømsbekendtgørelsen og DS/HD 60364-serien. Vi dokumenterer alt arbejde og udleverer komplet tavledokumentation og installationsattest ved projektets afslutning.
@@ -200,7 +200,7 @@ export default function ElInstallationPage() {
                     For erhvervskunder i Aalborg og Nordjylland tilbyder vi skræddersyede el-løsninger. Uanset om du driver en butik i Aalborg C, et kontor i Aalborg Øst, eller et lager i industrikvarteret, har vi erfaringen og ekspertisen til at levere en installation der matcher dine behov.
                   </p>
                   <p>
-                    Erhvervsinstallationer stiller særlige krav til kapacitet, sikkerhed og dokumentation. Vi dimensionerer installationen korrekt fra starten, så du undgår kapacitetsproblemer senere. Vores elektrikere er erfarne med trefaseinstallationer, kraftinstallationer, nødbelysning, brandalarmer og alt andet der kræves i erhvervsmiljøer.
+                    Erhverv stiller særlige krav til kapacitet, sikkerhed og dokumentation. Vi dimensionerer installationen korrekt fra starten. Det forebygger kapacitetsproblemer senere. Vores elektrikere er erfarne med trefase, kraft, nødbelysning, brandalarmer og alt andet der kræves i erhvervsmiljøer.
                   </p>
                   <p>
                     Vi forstår at nedetid koster penge, og planlægger derfor installationsarbejdet så det generer din drift mindst muligt. Ved behov kan vi arbejde uden for normal arbejdstid for at minimere forstyrrelsen. Inden vi starter, får du et fast tilbud med detaljeret beskrivelse af arbejdet og en realistisk tidsplan.
@@ -255,16 +255,16 @@ export default function ElInstallationPage() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto space-y-6 text-warm-600 leading-relaxed">
               <div className="rounded-2xl overflow-hidden mb-6">
-                <Image src="/images/el-udendoers.jpg" alt="Udendørs el-installation i Aalborg – autoriseret elektriker monterer udendørs belysning og stikdåser" width={800} height={500} className="w-full h-auto object-cover" />
+                <Image src="/images/el-udendoers.jpg" alt="Udendørs el-installation i Aalborg – elektriker monterer belysning og stikdåser" width={800} height={500} className="w-full h-auto object-cover" />
               </div>
               <h2 className="text-3xl font-bold text-warm-900 font-[family-name:var(--font-jakarta)]">
                 Komplet el-service fra din elektriker i Aalborg
               </h2>
               <p>
-                Ud over el-installationer tilbyder Nordjysk Elektriker en bred vifte af el-services. Vi anbefaler altid et <Link href="/eltjek" className="text-emerald-600 hover:underline">grundigt eltjek</Link> i forbindelse med større installationsprojekter, så vi kan identificere eksisterende fejl og sikre at hele installationen lever op til nutidens krav. Det er særligt vigtigt i ældre boliger i Hasseris, Aalborg C og Nørresundby.
+                Nordjysk Elektriker tilbyder mere end blot el-installationer. Vi anbefaler altid et <Link href="/eltjek" className="text-emerald-600 hover:underline">grundigt eltjek</Link> ved større projekter. Det hjælper os med at finde eksisterende fejl og sikre at installationen lever op til nutidens krav. Det gælder særligt ældre boliger i Hasseris, Aalborg C og Nørresundby.
               </p>
               <p>
-                Mange af vores kunder i Aalborg kombinerer el-installationer med <Link href="/belysning" className="text-emerald-600 hover:underline">professionel belysning</Link> og <Link href="/ladestandere" className="text-emerald-600 hover:underline">ladestander-installation</Link>. Ved at samle flere opgaver i ét projekt kan vi ofte tilbyde en mere fordelagtig totalpris. Vores <Link href="/priser" className="text-emerald-600 hover:underline">prisliste</Link> giver dig et overblik over standardpriser, men vi giver altid et skræddersyet tilbud tilpasset din specifikke situation.
+                Mange kunder kombinerer el-installationer med <Link href="/belysning" className="text-emerald-600 hover:underline">professionel belysning</Link> og <Link href="/ladestandere" className="text-emerald-600 hover:underline">ladestander-installation</Link>. Samler du flere opgaver i ét projekt, kan vi ofte give en bedre totalpris. Se vores <Link href="/priser" className="text-emerald-600 hover:underline">prisliste</Link> for standardpriser – vi giver altid et skræddersyet tilbud.
               </p>
               <p>
                 Har du brug for hjælp hurtigt? Vores <Link href="/akut-elektriker" className="text-emerald-600 hover:underline">akut elektriker i Aalborg</Link> er klar 24/7 med hurtig udrykning. Og uanset opgaven kan du altid <Link href="/kontakt" className="text-emerald-600 hover:underline">kontakte os</Link> for en uforpligtende snak om dine behov.

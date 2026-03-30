@@ -272,7 +272,7 @@ export default function BelysningPage() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto space-y-6 text-warm-600 leading-relaxed">
               <div className="rounded-2xl overflow-hidden mb-8">
-                <Image src="/images/belysning-hjem.jpg" alt="Moderne hjem i Aalborg med professionel belysning i køkken og stue – installeret af autoriseret elektriker" width={800} height={500} className="w-full h-auto object-cover" />
+                <Image src="/images/belysning-hjem.jpg" alt="Moderne hjem i Aalborg med professionel belysning i køkken og stue" width={800} height={500} className="w-full h-auto object-cover" />
               </div>
               <h2 className="text-3xl font-bold text-warm-900 font-[family-name:var(--font-jakarta)]">
                 Belysning til bolig og erhverv i Aalborg og Nordjylland

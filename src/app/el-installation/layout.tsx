@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'El-installation Aalborg | Nybyg & Renovering | Nordjysk Elektriker',
+  title: 'El-installation Aalborg | Autoriseret',
   description: 'Komplet el-installation i Aalborg til nybyg, renovering og erhverv. Autoriseret elektriker med 5 års garanti. Få gratis tilbud – kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/el-installation',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/el-installation' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/el-installation', 'x-default': 'https://aalborg-elektriker.dk/el-installation' },
   },
   openGraph: {
     title: 'El-installation i Aalborg | Nybyg, Renovering & Erhverv',

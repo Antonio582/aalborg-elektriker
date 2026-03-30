@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ladestander Aalborg | Elbil Ladestation | Nordjysk Elektriker',
+  title: 'Ladestander Aalborg | Elbil Installation',
   description: 'Installation af ladestander til elbil i Aalborg fra 8.500 kr. Gratis besigtigelse, tilskudshjælp og professionel montering. Kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/ladestandere',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/ladestandere' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/ladestandere', 'x-default': 'https://aalborg-elektriker.dk/ladestandere' },
   },
   openGraph: {
     title: 'Ladestander til Elbil i Aalborg | Installation fra 8.500 kr.',

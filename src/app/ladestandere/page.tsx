@@ -224,20 +224,20 @@ export default function LadestanderePage() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto space-y-6 text-warm-600 leading-relaxed">
               <div className="rounded-2xl overflow-hidden mb-8">
-                <Image src="/images/ladestander-elbil.jpg" alt="Elbil tilsluttet ladestander – professionel ladestander-installation i Aalborg af autoriseret elektriker" width={800} height={500} className="w-full h-auto object-cover" />
+                <Image src="/images/ladestander-elbil.jpg" alt="Elbil tilsluttet ladestander – professionel installation i Aalborg" width={800} height={500} className="w-full h-auto object-cover" />
               </div>
               <h2 className="text-3xl font-bold text-warm-900 font-[family-name:var(--font-jakarta)]">
                 Ladestander til elbil i Aalborg – det skal du vide
               </h2>
               <AuthorByline date="1. marts 2024" modified="27. marts 2026" />
               <p>
-                Antallet af elbiler i Danmark vokser hastigt, og med det følger behovet for pålidelig hjemmeladning. En dedikeret ladestander er markant hurtigere og sikrere end at lade via en almindelig stikkontakt. Hos Nordjysk Elektriker har vi som autoriseret elektriker i Aalborg installeret hundredvis af ladestandere i Aalborg C, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
+                Antallet af elbiler i Danmark vokser hastigt. Med det følger behovet for pålidelig hjemmeladning. En dedikeret ladestander er både hurtigere og sikrere end en almindelig stikkontakt. Hos Nordjysk Elektriker har vi installeret hundredvis af ladestandere i Aalborg C, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
               </p>
               <p>
-                Når du vælger ladestander, er det vigtigt at tænke på dit daglige kørselsbehov. De fleste familier kører 40-60 km dagligt, hvilket en 11 kW ladestander kan genoplade på blot 1-2 timer. Det betyder, at du altid starter dagen med fuldt batteri – uden at tænke over det. Smart ladestandere gør det muligt at tidsplanlægge opladningen til de billigste timer, typisk om natten, hvilket kan spare dig tusindvis af kroner om året.
+                Tænk på dit daglige kørselsbehov, når du vælger ladestander. De fleste familier kører 40-60 km dagligt. En 11 kW ladestander genoplader det på blot 1-2 timer. Du starter altid dagen med fuldt batteri – uden at tænke over det. Med en smart ladestander kan du tidsplanlægge opladningen til de billigste timer om natten. Det kan spare dig tusindvis af kroner om året.
               </p>
               <p>
-                For boligforeninger og etageejendomme i Aalborg tilbyder vi skræddersyede løsninger med load balancing, så flere beboere kan lade samtidig uden at overbelaste installationen. Vi håndterer alt fra den indledende kapacitetsberegning til den færdige installation med individuel aflæsning og afregning. Denne service er særligt populær i Aalborg C og Nørresundby, hvor mange bor i lejligheder og rækkehuse med fælles parkeringsanlæg.
+                For boligforeninger og etageejendomme tilbyder vi løsninger med load balancing. Det betyder at flere beboere kan lade samtidig uden at overbelaste installationen. Vi håndterer alt fra kapacitetsberegning til færdig installation med individuel aflæsning. Denne service er særligt populær i Aalborg C og Nørresundby, hvor mange bor i lejligheder med fælles parkering.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
                 <div className="rounded-2xl overflow-hidden">

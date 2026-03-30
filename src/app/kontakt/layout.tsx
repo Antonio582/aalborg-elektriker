@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Kontakt Elektriker Aalborg | Gratis Tilbud | Nordjysk Elektriker',
+  title: 'Kontakt Elektriker Aalborg | Gratis Tilbud',
   description: 'Kontakt Nordjysk Elektriker for gratis tilbud på el-arbejde. Kontakt os eller udfyld formularen. Vi svarer inden for 2 timer på hverdage.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/kontakt',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/kontakt' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/kontakt', 'x-default': 'https://aalborg-elektriker.dk/kontakt' },
   },
   openGraph: {
     title: 'Kontakt Nordjysk Elektriker | Gratis Tilbud på El-arbejde',

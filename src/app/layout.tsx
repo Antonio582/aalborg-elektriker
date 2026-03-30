@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://aalborg-elektriker.dk'),
   title: {
-    default: 'Elektriker Aalborg | Autoriseret El-installatør | Nordjysk Elektriker',
+    default: 'Elektriker Aalborg | Autoriseret El-service',
     template: '%s | Nordjysk Elektriker',
   },
   description: 'Autoriseret elektriker i Aalborg og Nordjylland. Eltjek, el-installation, belysning, ladestandere og akut elektriker. Kontakt os for gratis tilbud.',
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     locale: 'da_DK',
     url: 'https://aalborg-elektriker.dk',
     siteName: 'Nordjysk Elektriker',
-    title: 'Elektriker Aalborg | Autoriseret El-installatør | Nordjysk Elektriker',
+    title: 'Elektriker Aalborg | Autoriseret El-service',
     description: 'Autoriseret elektriker i Aalborg og Nordjylland. Eltjek, el-installation, belysning, ladestandere og akut elektriker.',
   },
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://aalborg-elektriker.dk',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk', 'x-default': 'https://aalborg-elektriker.dk' },
   },
 }
 

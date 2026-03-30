@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Elektriker Priser Aalborg | Timepris & Faste Priser | Nordjysk Elektriker',
-  description: 'Se priser på elektriker i Aalborg. Timepris fra 449 kr. Faste priser på eltjek, stikkontakter, ladestandere og mere. Gennemsigtige priser uden skjulte gebyrer.',
+  title: 'Elektriker Priser Aalborg | Fra 449 kr/time',
+  description: 'Se priser på elektriker i Aalborg. Timepris fra 449 kr. Faste priser på eltjek, stikkontakter, ladestandere og mere. Ingen skjulte gebyrer.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/priser',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/priser' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/priser', 'x-default': 'https://aalborg-elektriker.dk/priser' },
   },
   openGraph: {
     title: 'Elektriker Priser i Aalborg | Fra 449 kr./time',

@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Akut Elektriker Aalborg | 24/7 El-hjælp | Nordjysk Elektriker',
+  title: 'Akut Elektriker Aalborg | 24/7 Udrykning',
   description: 'Akut elektriker i Aalborg 24/7. Hurtig udrykning ved strømsvigt, kortslutning og el-nødsituationer. Kontakt os – vi er fremme på 1-2 timer.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/akut-elektriker',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/akut-elektriker' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/akut-elektriker', 'x-default': 'https://aalborg-elektriker.dk/akut-elektriker' },
   },
   openGraph: {
     title: 'Akut Elektriker Aalborg | 24/7 Nødservice',

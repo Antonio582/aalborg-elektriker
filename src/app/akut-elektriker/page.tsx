@@ -321,7 +321,7 @@ export default function AkutElektrikerPage() {
                   <Image src="/images/akut-stikkontakt.jpg" alt="Åben stikkontakt med synlige ledninger – akut el-reparation i Aalborg af autoriseret elektriker" width={400} height={300} className="w-full h-auto object-cover" />
                 </div>
                 <div className="rounded-2xl overflow-hidden">
-                  <Image src="/images/akut-reparation.jpg" alt="Elektriker reparerer kabler ved akut udrykning i Aalborg – professionelt værktøj og præcist arbejde" width={400} height={300} className="w-full h-auto object-cover" />
+                  <Image src="/images/akut-reparation.jpg" alt="Elektriker reparerer kabler ved akut udrykning i Aalborg – præcist arbejde" width={400} height={300} className="w-full h-auto object-cover" />
                 </div>
               </div>
               <h2 className="text-3xl font-bold text-warm-900 font-[family-name:var(--font-jakarta)] mb-8 text-center">

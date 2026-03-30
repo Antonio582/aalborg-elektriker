@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eltjek i Aalborg | Professionelt El-eftersyn | Nordjysk Elektriker',
+  title: 'Eltjek Aalborg | Professionelt El-eftersyn',
   description: 'Få et professionelt eltjek i Aalborg fra 2.495 kr. Autoriseret elektriker tjekker din el-installation grundigt. Book dit eltjek i dag – kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/eltjek',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/eltjek' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/eltjek', 'x-default': 'https://aalborg-elektriker.dk/eltjek' },
   },
   openGraph: {
     title: 'Eltjek i Aalborg | Professionelt El-eftersyn fra 2.495 kr.',

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Professionel belysning i Aalborg – LED-opgradering, spots, havebelysning og erhvervsbelysning. Spar op til 85% på el. Kontakt os for tilbud.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/belysning',
-    languages: { 'da-DK': 'https://aalborg-elektriker.dk/belysning' },
+    languages: { 'da-DK': 'https://aalborg-elektriker.dk/belysning', 'x-default': 'https://aalborg-elektriker.dk/belysning' },
   },
   openGraph: {
     title: 'Belysning i Aalborg | LED-opgradering & Lysdesign',
