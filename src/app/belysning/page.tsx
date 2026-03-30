@@ -115,7 +115,7 @@ export default function BelysningPage() {
                 Belysningsløsninger fra din elektriker i Aalborg
               </h1>
               <p className="text-lg sm:text-xl text-emerald-100/80 mt-6 max-w-2xl leading-relaxed">
-                Fra indendørs stemningslys til udendørs sikkerhedsbelysning – Aalborg El-Service designer og installerer den perfekte belysning til dit hjem eller erhverv i Aalborg og hele Nordjylland.
+                Fra indendørs stemningslys til udendørs sikkerhedsbelysning – Nordjysk Elektriker designer og installerer den perfekte belysning til dit hjem eller erhverv i Aalborg og hele Nordjylland.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-10">
                 <MagneticButton href="/kontakt">
@@ -146,7 +146,7 @@ export default function BelysningPage() {
                 <AuthorByline date="15. februar 2024" modified="27. marts 2026" />
                 <div className="space-y-4 text-warm-600 leading-relaxed">
                   <p>
-                    God belysning handler om mere end bare at kunne se – det handler om at skabe den rigtige atmosfære, øge sikkerheden og reducere energiforbruget. Hos Aalborg El-Service er vi specialiserede i professionel belysningsinstallation til private og erhverv i hele Aalborg og Nordjylland. Vores autoriserede elektrikere har mange års erfaring med alt fra simple lampeopsætninger til komplette belysningsprojekter.
+                    God belysning handler om mere end bare at kunne se – det handler om at skabe den rigtige atmosfære, øge sikkerheden og reducere energiforbruget. Hos Nordjysk Elektriker er vi specialiserede i professionel belysningsinstallation til private og erhverv i hele Aalborg og Nordjylland. Vores autoriserede elektrikere har mange års erfaring med alt fra simple lampeopsætninger til komplette belysningsprojekter.
                   </p>
                   <p>
                     Uanset om du drømmer om stemningsfuld belysning i stuen, funktionel arbejdsbelysning på køkkenbordet, eller sikkerhedsbelysning i indkørslen, kan vi hjælpe. Vi rådgiver om valg af lyskilder, farvetemperatur, dimmerfunktioner og energieffektive løsninger, der passer præcis til dit behov og din bolig i Aalborg C, Hasseris, Nørresundby, Aalborg Øst eller andre områder.
@@ -233,7 +233,7 @@ export default function BelysningPage() {
                 </h2>
                 <div className="space-y-4 text-emerald-100/70 leading-relaxed">
                   <p>
-                    En af de mest effektive måder at reducere dit elforbrug på er at skifte til LED-belysning. Hos Aalborg El-Service hjælper vi private og erhvervskunder i hele Aalborg med at opgradere fra halogen, gløde- og lysstofrør til moderne LED. Det er en investering der typisk tjener sig ind på bare 1-2 år i sparede elomkostninger.
+                    En af de mest effektive måder at reducere dit elforbrug på er at skifte til LED-belysning. Hos Nordjysk Elektriker hjælper vi private og erhvervskunder i hele Aalborg med at opgradere fra halogen, gløde- og lysstofrør til moderne LED. Det er en investering der typisk tjener sig ind på bare 1-2 år i sparede elomkostninger.
                   </p>
                   <p>
                     LED-teknologien har udviklet sig enormt de seneste år. Moderne LED-pærer giver et varmt og behageligt lys der ikke kan skelnes fra traditionelle lyskilder. De holder 25.000-50.000 timer mod halogenens 2.000 timer, og de fås i alle farvetemperaturer og dæmpbare versioner. Som din <Link href="/" className="text-emerald-400 hover:underline">elektriker i Aalborg</Link> anbefaler vi altid LED til nye installationer.
@@ -290,7 +290,7 @@ export default function BelysningPage() {
                 For erhvervskunder i Aalborg stiller vi gerne med en komplet belysningsplan, der sikrer at belysningen overholder alle lovkrav og standarder. Arbejdspladsvurderinger (APV) stiller specifikke krav til lysniveauer, og vores erfarne elektrikere sikrer at din virksomhed lever op til DS/EN 12464-standarden. Vi har hjulpet kontorer, butikker, lagre og produktionsvirksomheder med at optimere deres belysning – ofte med besparelser på 50-85% i elomkostninger ved skift til LED.
               </p>
               <p>
-                Uanset om du har brug for en simpel <Link href="/el-installation" className="text-emerald-600 hover:underline">lampeopsætning</Link>, en komplet LED-opgradering, eller et udendørs belysningsprojekt, er Aalborg El-Service dit rigtige valg. Vi tilbyder også <Link href="/eltjek" className="text-emerald-600 hover:underline">eltjek af din eksisterende installation</Link> for at sikre at den kan håndtere ny belysning. Har du brug for hjælp hurtigt? Vores <Link href="/akut-elektriker" className="text-emerald-600 hover:underline">akut elektriker i Aalborg</Link> er klar 24/7.
+                Uanset om du har brug for en simpel <Link href="/el-installation" className="text-emerald-600 hover:underline">lampeopsætning</Link>, en komplet LED-opgradering, eller et udendørs belysningsprojekt, er Nordjysk Elektriker dit rigtige valg. Vi tilbyder også <Link href="/eltjek" className="text-emerald-600 hover:underline">eltjek af din eksisterende installation</Link> for at sikre at den kan håndtere ny belysning. Har du brug for hjælp hurtigt? Vores <Link href="/akut-elektriker" className="text-emerald-600 hover:underline">akut elektriker i Aalborg</Link> er klar 24/7.
               </p>
             </div>
           </ScrollReveal>
@@ -347,7 +347,7 @@ export default function BelysningPage() {
               Lad os lyse dit hjem op
             </h2>
             <p className="text-emerald-100/80 mt-4 text-lg max-w-2xl mx-auto">
-              Kontakt Aalborg El-Service for et uforpligtende belysningsforslag. Vi designer den perfekte løsning til dit hjem eller erhverv i Aalborg.
+              Kontakt Nordjysk Elektriker for et uforpligtende belysningsforslag. Vi designer den perfekte løsning til dit hjem eller erhverv i Aalborg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <MagneticButton href="/kontakt">

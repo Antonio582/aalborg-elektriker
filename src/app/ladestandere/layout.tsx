@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ladestander Aalborg | Elbil Ladestation | Aalborg El-Service',
+  title: 'Ladestander Aalborg | Elbil Ladestation | Nordjysk Elektriker',
   description: 'Installation af ladestander til elbil i Aalborg fra 8.500 kr. Gratis besigtigelse, tilskudshjælp og professionel montering. Kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/ladestandere',
@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Ladestander til Elbil i Aalborg | Installation fra 8.500 kr.',
-    description: 'Professionel installation af ladestandere i Aalborg. Alle typer ladebokse. Gratis besigtigelse og tilskudsansøgning. Aalborg El-Service.',
+    description: 'Professionel installation af ladestandere i Aalborg. Alle typer ladebokse. Gratis besigtigelse og tilskudsansøgning. Nordjysk Elektriker.',
     url: 'https://aalborg-elektriker.dk/ladestandere',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Aalborg El-Service',
+    siteName: 'Nordjysk Elektriker',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Ladestander Aalborg | Elbil Ladestation Installation',
-    description: 'Installation af ladestander til elbil fra 8.500 kr. Gratis besigtigelse. Kontakt Aalborg El-Service.',
+    description: 'Installation af ladestander til elbil fra 8.500 kr. Gratis besigtigelse. Kontakt Nordjysk Elektriker.',
   },
 }
 

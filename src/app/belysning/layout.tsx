@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Belysning Aalborg | LED & Lysdesign | Aalborg El-Service',
+  title: 'Belysning Aalborg | LED & Lysdesign | Nordjysk Elektriker',
   description: 'Professionel belysning i Aalborg – LED-opgradering, spots, havebelysning og erhvervsbelysning. Spar op til 85% på el. Kontakt os for tilbud.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/belysning',
@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     url: 'https://aalborg-elektriker.dk/belysning',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Aalborg El-Service',
+    siteName: 'Nordjysk Elektriker',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Belysning Aalborg | LED & Professionelt Lysdesign',
-    description: 'LED-belysning og lysdesign i Aalborg. Spar op til 85% på el-regningen. Kontakt Aalborg El-Service.',
+    description: 'LED-belysning og lysdesign i Aalborg. Spar op til 85% på el-regningen. Kontakt Nordjysk Elektriker.',
   },
 }
 

@@ -60,7 +60,7 @@ const testimonials = [
   {
     name: 'Mette K.',
     location: 'Nørresundby',
-    text: 'Vi fik installeret ny belysning i hele huset og en ladestander i garagen. Aalborg El-Service gav os et fair tilbud og leverede kvalitetsarbejde fra start til slut.',
+    text: 'Vi fik installeret ny belysning i hele huset og en ladestander i garagen. Nordjysk Elektriker gav os et fair tilbud og leverede kvalitetsarbejde fra start til slut.',
     rating: 5,
   },
   {
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     question: 'Er I autoriserede elektrikere?',
-    answer: 'Ja, Aalborg El-Service er en fuldt autoriseret el-installatørvirksomhed. Alle vores elektrikere har gyldige certifikater og gennemgår løbende efteruddannelse. Vi følger alle gældende regler og standarder fra Sikkerhedsstyrelsen.',
+    answer: 'Ja, Nordjysk Elektriker er en fuldt autoriseret el-installatørvirksomhed. Alle vores elektrikere har gyldige certifikater og gennemgår løbende efteruddannelse. Vi følger alle gældende regler og standarder fra Sikkerhedsstyrelsen.',
   },
   {
     question: 'Hvad koster en elektriker i Aalborg?',
@@ -100,7 +100,7 @@ export default function HomePage() {
       {/* Article Schema */}
       <ArticleSchema
         title="Elektriker Aalborg – Autoriseret El-installatør i Aalborg og Nordjylland"
-        description="Aalborg El-Service er din autoriserede elektriker i Aalborg. Vi tilbyder eltjek, el-installation, belysning, ladestandere og akut elektriker 24/7."
+        description="Nordjysk Elektriker er din autoriserede elektriker i Aalborg. Vi tilbyder eltjek, el-installation, belysning, ladestandere og akut elektriker 24/7."
         url="https://aalborg-elektriker.dk/"
         datePublished="2024-01-15"
         dateModified="2026-03-27"
@@ -224,7 +224,7 @@ export default function HomePage() {
           <ScrollReveal>
             <div className="text-center max-w-2xl mx-auto mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-white font-[family-name:var(--font-jakarta)]">
-                Hvorfor vælge Aalborg El-Service?
+                Hvorfor vælge Nordjysk Elektriker?
               </h2>
               <p className="text-emerald-200/70 mt-4 text-lg">
                 Vi er ikke bare endnu en elektriker. Vi er din langsigtede partner for alt el-arbejde i Aalborg, Nørresundby, Hasseris og hele Nordjylland.
@@ -297,7 +297,7 @@ export default function HomePage() {
               </h2>
               <AuthorByline date="15. januar 2024" modified="27. marts 2026" />
               <p>
-                Aalborg El-Service er en lokal, autoriseret el-installatørvirksomhed med over 18 års erfaring i Aalborg og Nordjylland. Vi betjener tusindvis af private og erhvervskunder med alt fra simple reparationer og <Link href="/eltjek" className="text-emerald-600 hover:underline">eltjek</Link> til store <Link href="/el-installation" className="text-emerald-600 hover:underline">el-installationer</Link> og <Link href="/ladestandere" className="text-emerald-600 hover:underline">ladestander-montering</Link>. Vores dygtige team af autoriserede elektrikere kender Aalborg som deres egen baglomme – fra de ældre villakvarterer i Hasseris med karakteristiske murermestervillaer til de moderne parcelhuse i Gistrup og rækkehusene i Svenstrup.
+                Nordjysk Elektriker er en lokal, autoriseret el-installatørvirksomhed med over 18 års erfaring i Aalborg og Nordjylland. Vi betjener tusindvis af private og erhvervskunder med alt fra simple reparationer og <Link href="/eltjek" className="text-emerald-600 hover:underline">eltjek</Link> til store <Link href="/el-installation" className="text-emerald-600 hover:underline">el-installationer</Link> og <Link href="/ladestandere" className="text-emerald-600 hover:underline">ladestander-montering</Link>. Vores dygtige team af autoriserede elektrikere kender Aalborg som deres egen baglomme – fra de ældre villakvarterer i Hasseris med karakteristiske murermestervillaer til de moderne parcelhuse i Gistrup og rækkehusene i Svenstrup.
               </p>
               <p>
                 Når du vælger os som din elektriker i Aalborg, får du en partner der prioriterer kvalitet, sikkerhed og gennemsigtige <Link href="/priser" className="text-emerald-600 hover:underline">priser</Link>. Alle vores elektrikere er certificerede og gennemgår løbende efteruddannelse, så du altid får den nyeste viden og de bedste løsninger. Vi følger alle krav fra Sikkerhedsstyrelsen og dokumenterer alt arbejde grundigt.
@@ -366,7 +366,7 @@ export default function HomePage() {
               Klar til at få løst din el-opgave?
             </h2>
             <p className="text-emerald-100/80 mt-4 text-lg max-w-2xl mx-auto">
-              Kontakt Aalborg El-Service i dag for et uforpligtende tilbud. Vi svarer inden for 2 timer på hverdage.
+              Kontakt Nordjysk Elektriker i dag for et uforpligtende tilbud. Vi svarer inden for 2 timer på hverdage.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <MagneticButton href="/kontakt">

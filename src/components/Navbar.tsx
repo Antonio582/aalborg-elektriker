@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const links = [
@@ -23,13 +24,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+            <Image src="/logo.png" alt="Nordjysk Elektriker" width={36} height={36} className="rounded-lg" />
             <span className="font-bold text-emerald-800 text-lg font-[family-name:var(--font-jakarta)]">
-              Aalborg El-Service
+              Nordjysk Elektriker
             </span>
           </Link>
 

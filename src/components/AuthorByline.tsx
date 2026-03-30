@@ -11,7 +11,7 @@ export default function AuthorByline({ date, modified }: { date: string; modifie
         <div className="text-xs text-warm-400 flex items-center gap-2">
           <span>Publiceret: {date}</span>
           {modified && <span>· Opdateret: {modified}</span>}
-          <span>· Aalborg El-Service</span>
+          <span>· Nordjysk Elektriker</span>
         </div>
       </div>
     </div>

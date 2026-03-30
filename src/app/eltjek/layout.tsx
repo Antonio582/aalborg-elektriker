@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eltjek i Aalborg | Professionelt El-eftersyn | Aalborg El-Service',
+  title: 'Eltjek i Aalborg | Professionelt El-eftersyn | Nordjysk Elektriker',
   description: 'Få et professionelt eltjek i Aalborg fra 2.495 kr. Autoriseret elektriker tjekker din el-installation grundigt. Book dit eltjek i dag – kontakt os.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/eltjek',
@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     url: 'https://aalborg-elektriker.dk/eltjek',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Aalborg El-Service',
+    siteName: 'Nordjysk Elektriker',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Eltjek i Aalborg | Autoriseret El-eftersyn',
-    description: 'Professionelt eltjek fra 2.495 kr. Grundig gennemgang af din el-installation. Book hos Aalborg El-Service.',
+    description: 'Professionelt eltjek fra 2.495 kr. Grundig gennemgang af din el-installation. Book hos Nordjysk Elektriker.',
   },
 }
 

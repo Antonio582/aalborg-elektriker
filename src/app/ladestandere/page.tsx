@@ -231,7 +231,7 @@ export default function LadestanderePage() {
               </h2>
               <AuthorByline date="1. marts 2024" modified="27. marts 2026" />
               <p>
-                Antallet af elbiler i Danmark vokser hastigt, og med det følger behovet for pålidelig hjemmeladning. En dedikeret ladestander er markant hurtigere og sikrere end at lade via en almindelig stikkontakt. Hos Aalborg El-Service har vi som autoriseret elektriker i Aalborg installeret hundredvis af ladestandere i Aalborg C, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
+                Antallet af elbiler i Danmark vokser hastigt, og med det følger behovet for pålidelig hjemmeladning. En dedikeret ladestander er markant hurtigere og sikrere end at lade via en almindelig stikkontakt. Hos Nordjysk Elektriker har vi som autoriseret elektriker i Aalborg installeret hundredvis af ladestandere i Aalborg C, Nørresundby, Hasseris, Aalborg Øst, Gistrup, Svenstrup og Vodskov.
               </p>
               <p>
                 Når du vælger ladestander, er det vigtigt at tænke på dit daglige kørselsbehov. De fleste familier kører 40-60 km dagligt, hvilket en 11 kW ladestander kan genoplade på blot 1-2 timer. Det betyder, at du altid starter dagen med fuldt batteri – uden at tænke over det. Smart ladestandere gør det muligt at tidsplanlægge opladningen til de billigste timer, typisk om natten, hvilket kan spare dig tusindvis af kroner om året.

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Akut Elektriker Aalborg | 24/7 El-hjælp | Aalborg El-Service',
+  title: 'Akut Elektriker Aalborg | 24/7 El-hjælp | Nordjysk Elektriker',
   description: 'Akut elektriker i Aalborg 24/7. Hurtig udrykning ved strømsvigt, kortslutning og el-nødsituationer. Kontakt os – vi er fremme på 1-2 timer.',
   alternates: {
     canonical: 'https://aalborg-elektriker.dk/akut-elektriker',
@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     url: 'https://aalborg-elektriker.dk/akut-elektriker',
     type: 'website',
     locale: 'da_DK',
-    siteName: 'Aalborg El-Service',
+    siteName: 'Nordjysk Elektriker',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Akut Elektriker Aalborg 24/7 | Kontakt Nu',
-    description: 'Akut elektriker i Aalborg med hurtig udrykning. 24/7 vagtordning. Kontakt os – Aalborg El-Service.',
+    description: 'Akut elektriker i Aalborg med hurtig udrykning. 24/7 vagtordning. Kontakt os – Nordjysk Elektriker.',
   },
 }
 

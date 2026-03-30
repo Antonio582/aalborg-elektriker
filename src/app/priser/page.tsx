@@ -100,7 +100,7 @@ export default function PriserPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
-            name: 'Aalborg El-Service',
+            name: 'Nordjysk Elektriker',
             description: 'Priser på elektriker i Aalborg. Gennemsigtige timepriser og faste priser på el-arbejde.',
             telephone: '',
             url: 'https://aalborg-elektriker.dk/priser',
@@ -134,7 +134,7 @@ export default function PriserPage() {
                 Priser på elektriker i Aalborg
               </h1>
               <p className="text-lg sm:text-xl text-emerald-100/80 mt-6 max-w-2xl leading-relaxed">
-                Hos Aalborg El-Service tror vi på gennemsigtige priser uden overraskelser. Her finder du vores timepriser og faste priser på de mest almindelige el-opgaver.
+                Hos Nordjysk Elektriker tror vi på gennemsigtige priser uden overraskelser. Her finder du vores timepriser og faste priser på de mest almindelige el-opgaver.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-10">
                 <MagneticButton href="/kontakt">
@@ -259,7 +259,7 @@ export default function PriserPage() {
               </h2>
               <AuthorByline date="15. januar 2024" modified="27. marts 2026" />
               <p>
-                Hos Aalborg El-Service er vi stolte af vores gennemsigtige prisstruktur. Vi mener at du som kunde har ret til at vide præcis hvad du betaler for – og hvorfor. Derfor giver vi altid et detaljeret skriftligt tilbud, hvor arbejdsløn, materialer og eventuelle tillæg er tydeligt specificeret. Ingen skjulte gebyrer, ingen overraskelser.
+                Hos Nordjysk Elektriker er vi stolte af vores gennemsigtige prisstruktur. Vi mener at du som kunde har ret til at vide præcis hvad du betaler for – og hvorfor. Derfor giver vi altid et detaljeret skriftligt tilbud, hvor arbejdsløn, materialer og eventuelle tillæg er tydeligt specificeret. Ingen skjulte gebyrer, ingen overraskelser.
               </p>
               <p>
                 Vores timepriser ligger i midten af markedet for autoriserede elektrikere i Aalborg. Vi konkurrerer ikke på at være billigst – vi konkurrerer på at levere den bedste kombination af kvalitet, pålidelighed og fair pris. Billig el-arbejde kan blive dyrt i det lange løb, hvis det ikke udføres korrekt. Vi gør det rigtigt første gang, og det sparer dig for penge og bekymringer.
@@ -336,7 +336,7 @@ export default function PriserPage() {
               Kvalitetsarbejde til fair priser
             </h2>
             <p className="text-emerald-100/80 mt-4 text-lg max-w-2xl mx-auto">
-              Aalborg El-Service – din autoriserede elektriker i Aalborg med gennemsigtige priser og ingen overraskelser. Vi dækker Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup og Vodskov med professionel el-service til fair priser.
+              Nordjysk Elektriker – din autoriserede elektriker i Aalborg med gennemsigtige priser og ingen overraskelser. Vi dækker Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup og Vodskov med professionel el-service til fair priser.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <MagneticButton href="/kontakt">

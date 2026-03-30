@@ -66,8 +66,8 @@ export default function KontaktPage() {
   return (
     <>
       <ArticleSchema
-        title="Kontakt Aalborg El-Service – Din Autoriserede Elektriker i Aalborg"
-        description="Kontakt Aalborg El-Service for gratis tilbud på el-arbejde. Kontakt os via formularen. Vi svarer inden for 2 timer."
+        title="Kontakt Nordjysk Elektriker – Din Autoriserede Elektriker i Aalborg"
+        description="Kontakt Nordjysk Elektriker for gratis tilbud på el-arbejde. Kontakt os via formularen. Vi svarer inden for 2 timer."
         url="https://aalborg-elektriker.dk/kontakt"
         datePublished="2024-01-15"
         dateModified="2026-03-27"
@@ -79,8 +79,8 @@ export default function KontaktPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
-            name: 'Aalborg El-Service',
-            description: 'Kontakt Aalborg El-Service – din autoriserede elektriker i Aalborg. Kontakt os via formularen.',
+            name: 'Nordjysk Elektriker',
+            description: 'Kontakt Nordjysk Elektriker – din autoriserede elektriker i Aalborg. Kontakt os via formularen.',
             telephone: '',
             email: 'info@aalborg-elektriker.dk',
             url: 'https://aalborg-elektriker.dk/kontakt',
@@ -125,7 +125,7 @@ export default function KontaktPage() {
                 📬 Vi er klar til at hjælpe
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight font-[family-name:var(--font-jakarta)]">
-                Kontakt Aalborg El-Service
+                Kontakt Nordjysk Elektriker
               </h1>
               <p className="text-lg sm:text-xl text-emerald-100/80 mt-6 max-w-2xl leading-relaxed">
                 Har du brug for en autoriseret elektriker i Aalborg? Udfyld formularen herunder, ring til os eller send os en email. Vi svarer inden for 2 timer på hverdage. Vores dygtige elektrikere er klar til at hjælpe dig med alle typer el-opgaver i hele Aalborg og Nordjylland.
@@ -275,14 +275,14 @@ export default function KontaktPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Aalborg El-Service lokation"
+                    title="Nordjysk Elektriker lokation"
                   />
                 </div>
 
                 {/* Company Info */}
                 <div className="glass rounded-2xl p-8">
                   <h3 className="text-xl font-bold text-warm-800 font-[family-name:var(--font-jakarta)] mb-6">
-                    Aalborg El-Service
+                    Nordjysk Elektriker
                   </h3>
                   <div className="space-y-5">
                     <div className="flex items-start gap-4">
@@ -368,7 +368,7 @@ export default function KontaktPage() {
           <ScrollReveal>
             <div className="max-w-3xl mx-auto space-y-6 text-warm-600 leading-relaxed">
               <div className="rounded-2xl overflow-hidden mb-8">
-                <Image src="/images/elektriker-vaerksted.jpg" alt="Professionelt el-værksted – Aalborg El-Service er din autoriserede elektriker i Aalborg" width={800} height={500} className="w-full h-auto object-cover" />
+                <Image src="/images/elektriker-vaerksted.jpg" alt="Professionelt el-værksted – Nordjysk Elektriker er din autoriserede elektriker i Aalborg" width={800} height={500} className="w-full h-auto object-cover" />
               </div>
               <h2 className="text-3xl font-bold text-warm-900 font-[family-name:var(--font-jakarta)]">
                 Din lokale elektriker i Aalborg – altid tæt på dig
@@ -377,7 +377,7 @@ export default function KontaktPage() {
                 <Image src="/images/hero-elektriker-panel.jpg" alt="Autoriseret elektriker i Aalborg klar til at hjælpe med alle typer el-opgaver" width={800} height={500} className="w-full h-auto object-cover" />
               </div>
               <p>
-                Aalborg El-Service er din lokale, autoriserede elektriker med kontor centralt i Aalborg. Vi har betjent private og erhvervskunder i Aalborg og hele Nordjylland i over 18 år, og vores team af erfarne elektrikere er klar til at hjælpe dig med alle typer el-opgaver – store som små.
+                Nordjysk Elektriker er din lokale, autoriserede elektriker med kontor centralt i Aalborg. Vi har betjent private og erhvervskunder i Aalborg og hele Nordjylland i over 18 år, og vores team af erfarne elektrikere er klar til at hjælpe dig med alle typer el-opgaver – store som små.
               </p>
               <p>
                 Vi er stolte af den personlige service vi leverer til vores kunder. Når du kontakter os, taler du med rigtige mennesker der kender Aalborg og kan give dig konkret rådgivning. Vi tager os tid til at forstå dine behov og finder den bedste løsning inden for dit budget. Det er en af grundene til, at så mange af vores kunder vender tilbage igen og igen.
@@ -389,7 +389,7 @@ export default function KontaktPage() {
                 Vi dækker hele Aalborg Kommune og nærområdet, herunder Aalborg C, Aalborg Øst, Nørresundby, Hasseris, Gistrup, Svenstrup og Vodskov. Ved <Link href="/akut-elektriker" className="text-emerald-600 hover:underline">akutte el-problemer</Link> kan vi typisk være fremme inden for 1-2 timer i Aalborg by. For opgaver i det øvrige Nordjylland er du også velkommen til at kontakte os.
               </p>
               <p>
-                Vi ser frem til at høre fra dig! Udfyld kontaktformularen ovenfor, ring til os på, eller send en email til info@aalborg-elektriker.dk. Vi lover at vende tilbage hurtigt med et svar eller et tilbud. Ingen opgave er for lille eller for stor for Aalborg El-Service.
+                Vi ser frem til at høre fra dig! Udfyld kontaktformularen ovenfor, ring til os på, eller send en email til info@aalborg-elektriker.dk. Vi lover at vende tilbage hurtigt med et svar eller et tilbud. Ingen opgave er for lille eller for stor for Nordjysk Elektriker.
               </p>
             </div>
           </ScrollReveal>
@@ -420,7 +420,7 @@ export default function KontaktPage() {
               Vi glæder os til at hjælpe dig
             </h2>
             <p className="text-emerald-100/80 mt-4 text-lg max-w-2xl mx-auto">
-              Aalborg El-Service – din autoriserede elektriker i Aalborg og Nordjylland. Kontakt os via formularen.
+              Nordjysk Elektriker – din autoriserede elektriker i Aalborg og Nordjylland. Kontakt os via formularen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
               <a

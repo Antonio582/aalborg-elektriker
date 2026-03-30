@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     question: 'Er jeres akut-elektrikere autoriserede?',
-    answer: 'Ja, alle vores elektrikere – også dem på vagt – er fuldt autoriserede og certificerede. De har erfaring med alle typer akutte el-problemer og medbringer professionelt måle- og reparationsudstyr. Du er i sikre hænder med Aalborg El-Service.',
+    answer: 'Ja, alle vores elektrikere – også dem på vagt – er fuldt autoriserede og certificerede. De har erfaring med alle typer akutte el-problemer og medbringer professionelt måle- og reparationsudstyr. Du er i sikre hænder med Nordjysk Elektriker.',
   },
 ]
 
@@ -82,7 +82,7 @@ export default function AkutElektrikerPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
-            name: 'Aalborg El-Service – Akut Elektriker',
+            name: 'Nordjysk Elektriker – Akut Elektriker',
             description: 'Akut elektriker i Aalborg 24/7. Hurtig udrykning ved kortslutning, strømafbrydelse og andre el-nødsituationer.',
             telephone: '',
             url: 'https://aalborg-elektriker.dk/akut-elektriker',
@@ -215,7 +215,7 @@ export default function AkutElektrikerPage() {
                 <AuthorByline date="15. januar 2024" modified="27. marts 2026" />
                 <div className="space-y-4 text-warm-600 leading-relaxed">
                   <p>
-                    Vi forstår at en akut el-situation er stressende, og det sidste du har brug for er uklare priser. Hos Aalborg El-Service arbejder vi med gennemsigtige priser – du ved altid hvad det koster, før vi går i gang. Vores elektriker informerer dig om prisen inden arbejdet påbegyndes, så der ikke opstår ubehagelige overraskelser.
+                    Vi forstår at en akut el-situation er stressende, og det sidste du har brug for er uklare priser. Hos Nordjysk Elektriker arbejder vi med gennemsigtige priser – du ved altid hvad det koster, før vi går i gang. Vores elektriker informerer dig om prisen inden arbejdet påbegyndes, så der ikke opstår ubehagelige overraskelser.
                   </p>
                   <p>
                     Prisen for akut elektriker-service afhænger af tidspunktet og opgavens omfang. I normal arbejdstid (mandag-fredag kl. 7-16) er timeprisen 549 kr. ekskl. moms. Uden for normal arbejdstid – dvs. aften, nat, weekend og helligdage – er prisen 849 kr. ekskl. moms. Dertil kommer et fast udkaldstillæg på 395 kr., uanset hvornår du ringer.

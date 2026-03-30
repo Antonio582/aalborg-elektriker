@@ -13,7 +13,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <span className="font-bold text-white text-lg font-[family-name:var(--font-jakarta)]">Aalborg El-Service</span>
+              <span className="font-bold text-white text-lg font-[family-name:var(--font-jakarta)]">Nordjysk Elektriker</span>
             </div>
             <p className="text-sm leading-relaxed text-warm-400">
               Din autoriserede elektriker i Aalborg og omegn. Vi leverer kvalitetsarbejde til private og erhverv med fokus på sikkerhed og faglighed.
@@ -71,7 +71,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-emerald-900 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-warm-500">
-          <p>&copy; {new Date().getFullYear()} Aalborg El-Service. Alle rettigheder forbeholdes.</p>
+          <p>&copy; {new Date().getFullYear()} Nordjysk Elektriker. Alle rettigheder forbeholdes.</p>
           <p>Autoriseret el-installatørvirksomhed · CVR: XX XX XX XX</p>
         </div>
       </div>

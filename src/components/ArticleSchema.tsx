@@ -25,13 +25,13 @@ export default function ArticleSchema({
       jobTitle: 'Autoriseret el-installatør',
       worksFor: {
         '@type': 'Organization',
-        name: 'Aalborg El-Service',
+        name: 'Nordjysk Elektriker',
         url: 'https://aalborg-elektriker.dk',
       },
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Aalborg El-Service',
+      name: 'Nordjysk Elektriker',
       url: 'https://aalborg-elektriker.dk',
     },
     mainEntityOfPage: {

@@ -122,7 +122,7 @@ export default function EltjekPage() {
                     Et eltjek er en systematisk og grundig gennemgang af hele din el-installation, udført af en autoriseret elektriker. Formålet er at sikre, at din installation lever op til gældende sikkerhedskrav og fungerer korrekt. Det er din garanti for sikkerhed i hjemmet.
                   </p>
                   <p>
-                    Hos Aalborg El-Service udfører vi eltjek i overensstemmelse med Stærkstrømsbekendtgørelsen og de nyeste standarder. Vores erfarne elektrikere har gennemført tusindvis af eltjek i boliger og erhvervsejendomme i Aalborg, Nørresundby, Hasseris, Gistrup og hele Nordjylland.
+                    Hos Nordjysk Elektriker udfører vi eltjek i overensstemmelse med Stærkstrømsbekendtgørelsen og de nyeste standarder. Vores erfarne elektrikere har gennemført tusindvis af eltjek i boliger og erhvervsejendomme i Aalborg, Nørresundby, Hasseris, Gistrup og hele Nordjylland.
                   </p>
                   <p>
                     Under et eltjek kontrollerer vi blandt andet sikringstavlen, fejlstrømsrelæer (HPFI/HFI), jordledninger, stikkontakter, afbrydere, belysningsudtag og alle synlige kabler. Vi måler isolationsmodstand og sløjfeimpedans for at afsløre skjulte fejl, der ikke kan ses med det blotte øje.
