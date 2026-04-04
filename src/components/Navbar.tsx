@@ -6,7 +6,6 @@ import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const links = [
-  { href: '/', label: 'Forside' },
   { href: '/eltjek', label: 'Eltjek' },
   { href: '/el-installation', label: 'El-installation' },
   { href: '/belysning', label: 'Belysning' },
