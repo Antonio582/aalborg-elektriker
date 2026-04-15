@@ -53,11 +53,19 @@ export default function KontaktPage() {
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In production, this would send to an API
-    setIsSubmitted(true)
-  }
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+      await fetch("https://haandvaerker-sider-iota.vercel.app/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, source: "aalborg-elektriker.dk" }),
+      });
+    } catch {
+      // Dashboard unreachable — still show success to user
+    }
+    setIsSubmitted(true);
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
